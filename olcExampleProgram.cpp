@@ -1,10 +1,13 @@
 #define OLC_PGE_APPLICATION
 #define _USE_MATH_DEFINES
 #include "olcPixelGameEngine.h"
+
+//change the below to point to your irrKlang.h file
 #include "..\\irrKlang-64bit-1.6.0\include\irrKlang.h"
 
 #include <math.h>
 
+//change the below to point to your irrKlang.lib
 #pragma comment(lib, "C:\\Users\\James\\source\\repos\\irrKlang-64bit-1.6.0\\lib\\Winx64-visualStudio\\irrKlang.lib")
 
 #pragma warning(disable : 4996)
